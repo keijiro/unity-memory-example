@@ -184,3 +184,4 @@ MonoBehaviour:
   - StickyAssetTest1
   - AssetCreationTest1
   - AssetUnloadingTest1
+  - AssetBundleTest
