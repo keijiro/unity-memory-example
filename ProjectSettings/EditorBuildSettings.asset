@@ -32,4 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TestSuite/7.AssetUnloadingTest/AssetUnloadingTest2.unity
   - enabled: 1
+    path: Assets/TestSuite/8.AssetBundleTest/AssetBundleTest.unity
+  - enabled: 1
     path: Assets/Common/Scenes/Termination.unity
