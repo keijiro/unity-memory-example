@@ -112,7 +112,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 451f51face2aa4f2c8f353568cccd50d, type: 1}
   m_Name: 
-  sceneName: AssetUnloadingTest3
+  sceneName: Termination
   delay: 2
 --- !u!1 &648693887
 GameObject:
@@ -124,7 +124,6 @@ GameObject:
   - 4: {fileID: 648693888}
   - 33: {fileID: 648693890}
   - 23: {fileID: 648693889}
-  - 114: {fileID: 648693891}
   m_Layer: 0
   m_Name: Cube 2
   m_TagString: Untagged
@@ -171,17 +170,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 648693887}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &648693891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 648693887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f4e536c6464c3ba8b5ffb90f92c78, type: 1}
-  m_Name: 
-  delay: .5
 --- !u!1 &674428028
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,7 +180,6 @@ GameObject:
   - 4: {fileID: 674428029}
   - 33: {fileID: 674428031}
   - 23: {fileID: 674428030}
-  - 114: {fileID: 674428032}
   m_Layer: 0
   m_Name: Cube 3
   m_TagString: Untagged
@@ -239,17 +226,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 674428028}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &674428032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 674428028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f4e536c6464c3ba8b5ffb90f92c78, type: 1}
-  m_Name: 
-  delay: .5
 --- !u!1 &1266014867
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,7 +236,6 @@ GameObject:
   - 4: {fileID: 1266014868}
   - 33: {fileID: 1266014870}
   - 23: {fileID: 1266014869}
-  - 114: {fileID: 1266014871}
   m_Layer: 0
   m_Name: Cube 4
   m_TagString: Untagged
@@ -307,17 +282,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1266014867}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1266014871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1266014867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f4e536c6464c3ba8b5ffb90f92c78, type: 1}
-  m_Name: 
-  delay: .5
 --- !u!1 &1299583659
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,7 +292,6 @@ GameObject:
   - 4: {fileID: 1299583660}
   - 33: {fileID: 1299583662}
   - 23: {fileID: 1299583661}
-  - 114: {fileID: 1299583663}
   m_Layer: 0
   m_Name: Cube 1
   m_TagString: Untagged
@@ -375,17 +338,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1299583659}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1299583663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1299583659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f4e536c6464c3ba8b5ffb90f92c78, type: 1}
-  m_Name: 
-  delay: .5
 --- !u!1 &1355468007
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,6 +509,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1394017294}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acedd33b774e24715827ac5e130d46a4, type: 1}
+  m_Script: {fileID: 11500000, guid: 675e793d7887a410ebe82c91bb79ff1f, type: 1}
   m_Name: 
   delay: 1
+  textures:
+  - {fileID: 2800000, guid: a5f427a4757794053b5578480e0dd82d, type: 1}
+  - {fileID: 2800000, guid: 074760d54e0b2407bb5ee1bc7169365f, type: 1}
+  - {fileID: 2800000, guid: c37595c0d42bf4b81a40e8b52d2bc2d1, type: 1}
+  - {fileID: 2800000, guid: 5d4494bbc148549fda836fa6ca37a99f, type: 1}
